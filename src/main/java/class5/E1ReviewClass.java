@@ -1,0 +1,24 @@
+package class5;
+
+import java.util.Scanner;
+
+//Ask the user to input two boolean values (true or false).
+        //Use the logical AND operator (&&) to determine if both are true.
+        //Display the result to the user.
+public class E1ReviewClass {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Please enter your first boolean value true/false");
+        boolean var1= scanner.nextBoolean();
+        boolean var2=scanner.nextBoolean();
+        System.out.println("Please enter your second boolean value true/false");
+
+        if (var1&&var2){
+            System.out.println("Both values are true");}else{
+            System.out.println("Both values are not true");
+        }
+
+
+
+    }
+}

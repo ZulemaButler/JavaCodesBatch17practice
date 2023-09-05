@@ -1,0 +1,16 @@
+package class4;
+
+public class E1IfElseStatements {
+    public static void main(String[] args) {
+        int age=10;
+        boolean condition= age>5;
+        if (condition){
+            System.out.println(1);
+
+            //code goes here
+        } else {
+            System.out.println(2);
+        }
+    }
+
+}

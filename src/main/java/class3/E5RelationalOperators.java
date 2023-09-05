@@ -1,0 +1,15 @@
+package class3;
+
+public class E5RelationalOperators {
+    public static void main(String[] args) {
+
+        // = sign always comes after --> <>!etc
+        System.out.println(10>15); // is 10 greater than 15? =false
+        System.out.println(10<15); // is 10 less than 15? =true
+        System.out.println(10==15); // is 10 equal to 15? =false
+        System.out.println(10!=15); // is 10 NOT equal to 15? =true
+        System.out.println(10>=15); // is 10 greater than or equal to 15? =false
+        System.out.println(10<=15); // is 10 less than or equal to 15? = true of false
+
+    }
+}

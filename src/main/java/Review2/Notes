@@ -1,0 +1,32 @@
+Type Casting:
+
+    Type casting is converting data from one data type to another data type.
+    for example we can convert an integer to float or another way around.
+    There are two type of type casting: Type casting only works with primitive data stpe
+    1) Implicit/Auto/Widening
+    2) Explicit/Manual/Narrowing
+
+Example;
+int num=(int) 10.5
+===================================
+If Statements:
+    If statements are part of the condition constructs in java. They help us write code that can be executed
+    based on a condition.
+    There are many variation of "If Statements"
+    1) if 2)if else *only 2 possibilities 3)else if *more than two possibilities 4)nested if
+Why do we need conditional statements?
+    Without the if statements programs will always generate same output no mater what.
+Syntax:
+    if(THE CONDITION) {
+    something that we to execute if condition is true
+    }else{
+    something that we want to execute if condition is false
+    }
+Note:
+1)Whenever it is possible to write code with else-if and multiple if--
+conditions always go with els if statements.
+2) With primitive data types we can use < > == != etc.
+but with non-primitive we have to use equals method.
+
+
+
