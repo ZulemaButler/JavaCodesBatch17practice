@@ -13,4 +13,12 @@ public class T1Methods {
         }
 
 
+
+        void checkEvenOdd(int num){
+            if (num%2==0){
+                System.out.println("is an even number");
+            }else{
+                System.out.println("its an odd number");
+            }
+    }
 }

@@ -6,5 +6,5 @@ public class MathConstants {
     static double e=2.71;
     static int  NO_Of_Days=15;
 
-    String COMPANY_NAME_="Syntax";
+   static String COMPANY_NAME_="Syntax";
 }

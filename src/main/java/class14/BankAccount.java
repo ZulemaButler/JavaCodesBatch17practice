@@ -7,9 +7,13 @@ public class BankAccount {
    private double accountBalance=300;
   private  String accountNumber="12345";
 
+  void printInfo(){
+      System.out.println("Hi there!");
+  }
+
     public static void main(String[] args) {
         BankAccount bankAccount=new BankAccount();
-        System.out.println(bankAccount.name);
+        System.out.println(bankAccount.userName);
     }
 
 }

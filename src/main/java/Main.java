@@ -13,5 +13,11 @@ public class Main {
             // for you, but you can always add more by pressing Cmd+F8.
             System.out.println("i = " + i);
         }
+        /*
+        String path = "C:\Users\Syntax\IdeaProjects\JavaSdetBatch17\Files\Employees.xlsx";
+        FileInputStream fis = new FileInputStream(path);
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        Sheet sheet = workbook.getSheet("Sheet1");
+         */
     }
 }

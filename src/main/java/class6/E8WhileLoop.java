@@ -6,7 +6,7 @@ public class E8WhileLoop {
         int i=1;
         while (i<=10) {
             if (i !=7) { //this code will skip over number !7//
-            System.out.print(i );
+            System.out.print(i + " ");
 
         }
             i++;

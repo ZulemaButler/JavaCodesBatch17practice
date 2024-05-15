@@ -1,7 +1,7 @@
 package class14;
 public class T1ReverseWord { //how would you reverse a String word by word?
     //input=> This is a sentence I was to reverse
-    //output=> siht si ecnetnes i tnaw ot esrever
+    //output=> sihT si ecnetnes i tnaw ot esrever
     public static void main(String[] args) {
 
         String str = "This is a sentence I want to reverse";
@@ -14,10 +14,10 @@ public class T1ReverseWord { //how would you reverse a String word by word?
         }
         System.out.println(reverseStr("this"));
     }
-    static String reverseStr(String inputStr) {
+   static String reverseStr(String inputStr) {
 
         String reversed="";
-        for (int i = inputStr.length()-1; i>= 0; i--) {
+        for (int i = inputStr.length()-1; i>= 0; i--) { //-1 the last index is always 1 less than the length
             reversed=reversed+inputStr.charAt(i);
         }
         return reversed;

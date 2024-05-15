@@ -2,7 +2,7 @@ package class5;
 
 public class E5OrOperator {
     public static void main(String[] args) {
-        boolean broughtFlowers=false;
+        boolean broughtFlowers=true;
         boolean broughtChocolates=false;
         boolean allMyMistake=false;
 

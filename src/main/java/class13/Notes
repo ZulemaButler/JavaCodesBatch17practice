@@ -7,7 +7,7 @@ Types of variables:
     loop, switch statements, methods are block of code.
 Upside:
     They occupy the memory for shortest period of time. As soon as Java is done executing that block of code
-    they are removed from the memory.
+    they are removed from the memory. The code that we write using local variables is easier to debug
 Downside:
     They can only be accessed within the block of code they are created
 ****************************************    ***********************************************
@@ -28,12 +28,12 @@ Static Variables:
     Static variables are created inside a class but outside of a block of code with a static keyword.
 Upside:
     they are universal when it comes to scope and accessibility. We don't even need to create the object
-    of that class in which they are created. We can simply write the name of the class and we can access it
+    of that class in which they are created. We can simply write the name of the class and we can access it.
 Downside:
     Static variables occupy the memory for longest of all. They are created even though you did not create
     any object of the class.
 Use of types of local variables:
-    Local;
+    Local:
         Whenever we are solving any problem many times we need local variable to temporally store data. In all of those
         cases you should be going with local variables.
 

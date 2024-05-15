@@ -8,6 +8,10 @@ public class Dog {
        void printInfo(){
               System.out.println(name+" " +breed+ " "+age);
        }
+
+       void printName(){
+           System.out.println(name);
+       }
     void changeName(String dogName){
               name=dogName;
     }

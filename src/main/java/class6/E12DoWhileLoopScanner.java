@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class E12DoWhileLoopScanner {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
-        System.out.println("Please enter your name or shutdown to close the program");
-        String input;
+        int input;
 
         do{
-            input= scanner.nextLine();
+            System.out.println("Please enter a number or -1 to terminate");
+            input= scanner.nextInt();
             System.out.println("You are great " + input);
-        }while (!input.equalsIgnoreCase("shutdown"));
+        }while (input!=1);
 
     }
 }

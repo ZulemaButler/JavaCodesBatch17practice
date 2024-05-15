@@ -1,0 +1,47 @@
+Method Overloading:
+    Method overloading happens when multiple methods with same name, but with different parameters are created.
+    1) Different number of parameters for example min (2,3) min(4,5,6)
+    2) Different daya type of methods-- print("Java") ,print(12);
+    3) Different Sequence/order of parameters print (Java",12), print (12,"Java")
+Why should we learn about method overloading:
+    1) Cleaner code- reducing clutter
+    2) We don't need to come up with a different method names.
+
+    Syntax:
+     class Calculator{
+
+        int add(int a,int b){
+        return a+b;
+        }
+
+        int add(int a,int b,int c){
+            return a+b+c;
+            }
+
+         double add(double a,double b){
+            return a+b;
+            }
+
+            long add(long a,long b){
+                    return a+b;
+                    }
+
+        }
+
+MethodOverriding:
+    MethodOverriding happens when same name method is present in parent as well as child class
+
+NOTE:
+    Signature of a method:
+       method name plus its parameters are called signature of a method.
+     Header of a method:
+        header of a method include signature plus return type
+
+Topics to revise for Selenium.
+
+    1)Classes and Objects
+    2)String Methods
+    3) Methods
+    4) if else
+    5)loops
+
